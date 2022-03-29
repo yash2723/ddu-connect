@@ -1,0 +1,10 @@
+.more_info {
+    background-image: url(https://img.wallpapersafari.com/tablet/1200/1920/92/88/0IUVtf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.more_info img {
+    width: -webkit-fill-available;
+}

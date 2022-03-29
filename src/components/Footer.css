@@ -1,0 +1,98 @@
+.footer{
+    width: 100%;
+    background-color: rgb(34 , 34, 34);
+}
+
+.footer .col{
+    margin-bottom: 50px;
+    background-color: rgb(34 , 34, 34);
+}
+
+.footer .card{
+    background-color: rgb(34 , 34, 34);
+    border: none;
+}
+
+.footer .card-body .card-title{
+    color: white;
+    margin: 43px 0px;
+}
+
+.footer .card-body .card-text{
+    color: #bbbbbb !important;
+}
+
+.footer .card-body .card-text a:hover{
+    padding-left: 10px;
+    transition: all 1s ease-in;
+    transition: all 0.3s ease-out;
+    color: white;
+}
+
+.footer .card .icons{
+    margin: 10px 20px;
+}
+
+.footer .card .icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgb(66 , 66, 66);
+    border: 2px solid rgb(66 , 66, 66);
+    border-radius: 90px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer .card .icons a:hover{
+    background-color: rgb(34 , 34, 34);
+    border-color: rgb(34 , 34, 34);
+}
+
+.footer .card .icons a img{
+    width: 30px;
+    height: 20px;
+}
+
+
+.footer .about-us .card-body .card-title{
+    height: 60px;
+    margin: 35px 0px;
+}
+
+.footer .about-us .card-body .card-title img{
+    width: 210px;
+    height: 60px;
+}
+
+.footer .about-us .card-text a{
+    color: #bbbbbb;
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.footer .links .card-text a{
+    color: #bbbbbb;
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.copyright{
+    color: white;
+    width: 100%;
+    padding: 25px 50px;
+    text-align: center;
+    background: rgb(66 , 66, 66);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer .col {
+        margin-bottom: 0px;
+    }
+}

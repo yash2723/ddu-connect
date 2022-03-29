@@ -1,0 +1,31 @@
+.placement-mania {
+    background: url(../images/bg.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.placement-mania .card{
+    background: rgb(255 255 255 / 0%) !important;
+    color: black;
+    border: none;
+}
+
+.placement-mania .card .card-body .card-title{
+    font-weight: 500;
+}
+
+.placement-mania .card .card-body .card-text{
+    margin-top: 20px;
+}
+
+.placement-mania .card .card-body .btn{
+    background-color: white;
+    color: #6c63ff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.placement-mania .card .card-body .btn i{
+    margin-right: 10px;
+}

@@ -1,0 +1,232 @@
+.landing-page {
+    min-height: 100vh;
+    padding: 150px 0px;
+    background-color: #7857fe;
+    border-radius: 0 0 200px 0;
+}
+
+.landing-page .effect-wrap .effect {
+    position: absolute;
+    animation: spin_circle 3s linear infinite;
+    font-size: 18px;
+}
+
+.landing-page .effect-wrap .effect-1 {
+    color: orangered;
+    top: 25%;
+    right: 10%;
+}
+
+.landing-page .effect-wrap .effect-2 {
+    color: lightcyan;
+    top: 25%;
+    left: 9%;
+    
+}
+
+.landing-page .effect-wrap .effect-3 {
+    color: lavender;
+    top: 90vh;
+    right: 9%;
+}
+
+.landing-page .landing-img {
+    position: relative;
+}
+
+.landing-page .landing-img img {
+    width: -webkit-fill-available;
+    animation: bounce_img 3s ease infinite;
+}
+
+@keyframes bounce_img {
+    0% , 100% {
+        transform: translateY(-30px); 
+    }
+    50% {
+        transform: translateY(0px); 
+    }
+}
+
+.landing-page .landing-img .circle {
+    position: absolute;
+    z-index: 1;
+    height: 95%;
+    width: 95%;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.landing-page .landing-img .circle::before {
+    content: '';
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    left: 06%;
+    top: 06%;
+    transform-origin: 350% 370%;
+    animation: spin_circle 10s linear infinite;
+}
+
+@media (max-width: 1169px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 300% 310%;
+    }
+}
+
+@media (max-width: 974px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 240% 240%;
+    }
+}
+
+@media (max-width: 755px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 350% 360%;
+    }
+}
+
+@media (max-width: 525px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 310% 320%;
+    }
+}
+
+@media (max-width: 510px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 306% 315%;
+    }
+}
+
+@media (max-width: 495px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 290% 300%;
+    }
+}
+
+@media (max-width: 465px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 270% 280%;
+    }
+}
+
+@media (max-width: 430px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 250% 260%;
+    }
+}
+
+@media (max-width: 390px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 230% 240%;
+    }
+}
+
+@media (max-width: 390px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 200% 210%;
+    }
+}
+
+@media (max-width: 320px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 180% 190%;
+    }
+}
+
+@media (max-width: 285px) {
+    .landing-page .landing-img .circle::before {
+        transform-origin: 165% 175%;
+    }
+}
+
+
+@keyframes spin_circle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.landing-page .text {
+    color: white;
+}
+
+.landing-page .text h1 {
+    font-size: 45px;
+    margin: 0 0 20px;
+}
+
+.landing-page .text p {
+    font-size: 18px;
+    line-height: 28px;
+    /* margin: 0px; */
+}
+
+.landing-page .text .btn {
+    margin-top: 20px;
+}
+
+.landing-page .text .video-play-btn {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    font-size: 16px;
+    animation: pulse 2s ease infinite;
+}
+
+.landing-page .text .video-play-btn:hover {
+    animation: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+.landing-page .text .video-play-btn i {
+    line-height: 50px;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(0.94);
+        box-shadow: 0 0 0 0 rgba(255,255,255,255,0.7);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 12px rgba(255,255,255,255,0);
+    }
+    100%{ 
+        transform: scale(0.94);
+        box-shadow: 0 0 0 0 rgba(255,255,255,255,0);
+    }
+}
+
+.landing-page .modal-content {
+    background: none;
+    border: none;
+    height: 60vh;
+}
+
+.landing-page .modal .modal-header .btn-close {
+    background-color: white;
+    opacity: 1;
+}
+
+.landing-page .modal .modal-body {
+    padding: 0px;
+}
+
+.landing-page .iframe-box {
+    height: 100%;
+}
+
+.landing-page .iframe-box iframe {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,55 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+/* Global CSS */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  outline: none !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  background-color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  color: #7857fe;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #7857fe;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-weight: 400;
+}
+
+.section-title .section-title-underline {
+  width: 100px;
+  height: 2px;
+  background-color: #7857fe;
+  border-radius: 10px;
+  margin: auto;
+}
+
+
+

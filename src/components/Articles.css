@@ -1,0 +1,10 @@
+.articles .carousel-caption {
+    display: block !important;
+    bottom: 0.01rem !important;
+    padding: 06px !important;
+    left: 0% !important;
+    right: 0% !important;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+}
